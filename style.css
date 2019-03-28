@@ -7,10 +7,6 @@ body {
     display: flex;
 }
 
-div{
-    display: block;
-}
-
 footer{
 
 }
@@ -28,14 +24,19 @@ footer{
 #center-box {
     vertical-align: middle;
     display: table-cell;
+
 }
 
 #circ1 {
-    
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    border-radius: 100%;
+    margin: 0 auto;
 }
 
 #circ2 {
-    border-radius: 100%;
+    
 }
 
 #circ3 {
@@ -57,21 +58,17 @@ footer{
 }
 
 .topRow {
-    height: 200px;
-    align-content: center;
+    height: 50px;
+    text-align: center;
     display: flex;
     flex-direction: row;
     border-spacing: 50px;
-}
-
 }
 
 .rowMiddle {
     height: 200px;
     align-content: center;
     display: flex;
-
-
 }
 
 .rowBottom{
