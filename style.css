@@ -7,6 +7,14 @@ body {
     display: flex;
 }
 
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
 footer{
 
 }
@@ -27,24 +35,41 @@ footer{
 
 }
 
-#circ1 {
+#circ0 {
+    position: relative;
+    left: 6%;
     border: 1px solid black;
-    height: auto;
-    width: auto;
     border-radius: 100%;
-    margin: 0 auto;
+    width: 150px;
 }
 
-#circ2 {
-    
+#circ1 {
+    position: relative;
+    left: 65%;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 150px;
 }
 
 #circ3 {
-
+    position: relative;
+    left: 5%;    
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 150px;
 }
 
 #circ4 {
+    position: relative;
+    left: 76%;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 150px;
+}
 
+#name {
+    text-align: center;
+    margin: 75px 0;
 }
 
 /******************CLASSES************/
@@ -58,20 +83,28 @@ footer{
 }
 
 .topRow {
-    height: 50px;
-    text-align: center;
+    height: 100px;
+    position: relative;
     display: flex;
     flex-direction: row;
-    border-spacing: 50px;
+    
 }
 
 .rowMiddle {
     height: 200px;
     align-content: center;
-    display: flex;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 200px;
 }
 
 .rowBottom{
+    position:relative;
+    display: flex;
+    height: 100px;
+    ;
+
 
 
 }
