@@ -7,7 +7,7 @@ body {
     display: flex;
 }
 
-h1 {
+h2 {
     font-size: 40px;
 
 }
@@ -24,6 +24,11 @@ footer{
 
 
 /****************ID***************/
+
+#name {
+    
+}
+
 #HomePage {
     display: table;
     position: absolute;
@@ -85,7 +90,7 @@ footer{
     
 }
 
-#name {
+#photo {
     text-align: center;
     margin: 135px 0;
 }
